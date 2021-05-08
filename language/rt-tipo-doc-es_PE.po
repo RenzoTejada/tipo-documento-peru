@@ -1,0 +1,149 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tipo Documento Perú\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-06 20:32+0000\n"
+"PO-Revision-Date: 2021-05-06 20:37+0000\n"
+"Last-Translator: \n"
+"Language-Team: Español de Perú\n"
+"Language: es_PE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.2; wp-5.5.4\n"
+"X-Domain: rt-tipo-doc"
+
+#: tipo_checkout.php:10
+msgid "DNI"
+msgstr "DNI"
+
+#: tipo_checkout.php:39 tipo_checkout.php:63 tipo_checkout.php:79
+#: tipo_checkout.php:86 tipo_checkout.php:94
+msgid "Document No."
+msgstr "Nro Documento"
+
+#: tipo_admin.php:13 tipo_checkout.php:28 tipo_checkout.php:60
+#: tipo_checkout.php:78 tipo_checkout.php:85 tipo_checkout.php:93
+msgid "Document Type"
+msgstr "Tipo documento"
+
+#: tipo_admin.php:58
+msgid "Documents"
+msgstr "Documentos"
+
+#: tipo_checkout.php:16
+msgid "FOREIGNER'S CARD"
+msgstr "CARNET DE EXTRANJERÍA"
+
+#: tipo_admin.php:105
+msgid "FOREIGNER'S CARD (CE)"
+msgstr "CARNET DE EXTRANJERÍA (CE)"
+
+#: tipo_admin.php:171
+msgid "Go to"
+msgstr "Ir a"
+
+#: tipo_admin.php:62 tipo_admin.php:159
+msgid "Help"
+msgstr "Ayuda"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://renzotejada.com/"
+msgstr "https://renzotejada.com/"
+
+#: tipo_admin.php:169
+msgid "I have other questions"
+msgstr "Tengo otras preguntas"
+
+#: tipo_admin.php:163
+msgid ""
+"It allows you to integrate your Woocommerce the type of document of the "
+"customers in the checkout."
+msgstr ""
+"Te permite integrar en tu Woocommerce el tipo de documento de los clientes "
+"en el checkout."
+
+#: tipo_admin.php:89
+msgid "NATIONAL IDENTITY CARD (DNI)"
+msgstr "Documento Nacional de Identidad (DNI)"
+
+#: tipo_admin.php:121 tipo_checkout.php:22
+msgid "OTHER"
+msgstr "OTROS"
+
+#: tipo_admin.php:113 tipo_checkout.php:19
+msgid "PASSPORT"
+msgstr "PASAPORTE"
+
+#: tipo_admin.php:151
+msgid ""
+"Peru document type for WooCommerce: The module needs to have WooCommerce "
+"installed to operate correctly."
+msgstr ""
+"Tipo de documento de Perú para WooCommerce: El módulo necesita tener "
+"instalado WooCommerce para funcionar correctamente."
+
+#: tipo_admin.php:51
+msgid "Peru document type | DNI and RUC integration in Woocommerce checkout"
+msgstr ""
+"Tipo de documento Perú | Integración de DNI y RUC en el checkout de "
+"Woocommerce"
+
+#. Author of the plugin
+msgid "Renzo Tejada"
+msgstr "Renzo Tejada"
+
+#: tipo_admin.php:171
+msgid "RT - Contact"
+msgstr "RT - Contacto"
+
+#: tipo_checkout.php:13
+msgid "RUC"
+msgstr "RUC"
+
+#: tipo_admin.php:129
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: tipo-documento.php:39
+msgid "Settings"
+msgstr "Ajustes"
+
+#: tipo_admin.php:98
+msgid "SINGLE TAXPAYER REGISTRY (RUC)"
+msgstr "REGISTRO ÚNICO DE CONTRIBUYENTES (RUC)"
+
+#: tipo_admin.php:167
+msgid "This plugin is totally free."
+msgstr "Este plugin es totalmente gratuito."
+
+#. Name of the plugin
+msgid "Tipo Documento Perú"
+msgstr "Tipo Documento Perú"
+
+#: tipo_admin.php:83
+msgid "Type of document enabled in your store"
+msgstr "Tipo de documento habilitado en su tienda"
+
+#. Description of the plugin
+msgid ""
+"Type of Peruvian Document where the option to choose DNI or RUC or others is "
+"added."
+msgstr ""
+"Tipo de Documento Peruano donde se agrega la opción de elegir DNI o RUC u "
+"otros."
+
+#: tipo_admin.php:21
+msgid "Was saved successfully"
+msgstr "Se ha guardado con éxito"
+
+#: tipo_admin.php:161
+msgid "What does this module do?"
+msgstr "¿Qué hace este módulo?"
+
+#: tipo_admin.php:165
+msgid "What is the cost of the module?"
+msgstr "¿Cuál es el coste del módulo?"
