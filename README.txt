@@ -68,6 +68,9 @@ The information was obtained from the following urls:
 
 == Changelog ==
 
+= 0.0.3 (12/05/2021) =
+Fix validación de la version WC 5.3.0.
+
 = 0.0.2 =
 Fix Incorrect Stable Tag.
 Fix Don’t use esc_ functions to sanitize.
