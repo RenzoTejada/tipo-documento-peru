@@ -34,7 +34,7 @@ function rt_tipo_add_checkout_field( $checkout )
 
 
     woocommerce_form_field( 'billing_nro', array(
-        'type' => 'text',
+        'type' => 'number',
         'class' => array( 'form-row-wide' ),
         'label' => __('Document No.', 'rt-tipo-doc'),
         'required' => true,
@@ -61,6 +61,20 @@ function rt_tipo_validate_checkout_field( $fields )
     }
     if ( ! $_POST['billing_nro'] ) {
         wc_add_notice( '<b>'. __('Document No.', 'rt-tipo-doc') .'</b> es un campo requerido.', 'error' );
+    }
+    if (  $_POST['billing_documento'] == 'dni') {
+        if ($_POST['billing_nro']) {
+            if (strlen($_POST['billing_nro']) < 8) {
+                wc_add_notice('<b>' . __('Please enter 8 digits of your DNI', 'rt-tipo-doc') . '</b> is a required field.', 'error');
+            }
+        }
+    }
+    if (  $_POST['billing_documento'] == 'ruc') {
+        if ($_POST['billing_nro']) {
+            if (strlen($_POST['billing_nro']) < 11) {
+                wc_add_notice('<b>' . __('Please enter 11 digits of your RUC', 'rt-tipo-doc') . '</b> is a required field.', 'error');
+            }
+        }
     }
 }
 add_action( 'woocommerce_checkout_process', 'rt_tipo_validate_checkout_field' );
@@ -96,6 +110,17 @@ function rt_tipo_show_custom_fields_thankyou($order_id)
 add_action('woocommerce_thankyou', 'rt_tipo_show_custom_fields_thankyou', 20);
 
 
+function rt_tipo_get_product_order($response, $object, $request)
+{
+    if (empty($response->data))
+        return $response;
+
+    $response->data['billing']['tipo_documento'] = get_post_meta($response->data['id'], '_documento', true);
+    $response->data['billing']['nro'] = get_post_meta($response->data['id'], '_nro', true);
+    return $response;
+}
+
+add_filter("woocommerce_rest_prepare_shop_order_object", "rt_tipo_get_product_order", 10, 3);
 
 
 
