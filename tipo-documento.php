@@ -9,14 +9,14 @@
  * Plugin Name:       Tipo Documento Perú
  * Plugin URI:        https://renzotejada.com/tipo-de-documento-peru/
  * Description:       Type of Peruvian Document where the option to choose DNI or RUC or others is added.
- * Version:           0.0.5
+ * Version:           0.0.6
  * Author:            Renzo Tejada
  * Author URI:        https://renzotejada.com/
  * License:           GNU General Public License v3.0
  * License URI:       http://www.gnu.org/licenses/gpl-3.0.html
  * Text Domain:       rt-tipo-doc
  * Domain Path:       /language
- * WC tested up to:   5.3.0
+ * WC tested up to:   6.1.1
  * WC requires at least: 2.6
  */
 if (!defined('ABSPATH')) {
