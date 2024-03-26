@@ -1,4 +1,6 @@
-jQuery("#billing_documento").select2();
+jQuery(document).ready(function(  ) {
+    jQuery("#billing_documento").select2();
+});
 
 
 jQuery('#billing_nro').blur(function (event) {
