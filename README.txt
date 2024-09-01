@@ -1,16 +1,14 @@
 === Tipo Documento Perú ===
-Contributors: renzotejada, drplugins, alexistejada
+Contributors: renzotejada, huakotech, alexistejada
 Tags: dni, ruc, pasaporte, documento, perú
-Requires at least: 5.2
-Tested up to: 6.5
+Requires at least: 6.2
+Tested up to: 6.6.1
 Stable tag: trunk
-Requires PHP: 5.6
+Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Type of Peruvian Document where the option to choose DNI or RUC or others is added.
-
-You will find this same information in the readme.txt of the plugin and on our website https://renzotejada.com
 
 == Description ==
 
@@ -92,6 +90,10 @@ The information was obtained from the following urls:
 
 
 == Changelog ==
+
+= 0.2 (31/08/2024) =
+Fix: validando versión WC 9.2.3
+Fix: validando versión WP 6.6.1
 
 = 0.1.1 (05/04/2024) =
 Fix: validando versión WC 8.7.0
