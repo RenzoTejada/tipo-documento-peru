@@ -2,7 +2,7 @@
 Contributors: renzotejada, huakotech, alexistejada
 Tags: dni, ruc, pasaporte, documento, perú
 Requires at least: 6.2
-Tested up to: 6.6.1
+Tested up to: 9.4.1
 Stable tag: trunk
 Requires PHP: 7.4
 License: GPLv2 or later
@@ -90,6 +90,10 @@ The information was obtained from the following urls:
 
 
 == Changelog ==
+
+= 0.3 (15/11/2024) =
+Fix: validando versión WC 9.4.1
+Fix: validando versión WP 6.7
 
 = 0.2 (31/08/2024) =
 Fix: validando versión WC 9.2.3
