@@ -91,6 +91,10 @@ The information was obtained from the following urls:
 
 == Changelog ==
 
+= 0.3 (16/01/2025) =
+Fix: validando versión WC 9.4.1
+Fix: validando versión WP 6.7
+
 = 0.2 (31/08/2024) =
 Fix: validando versión WC 9.2.3
 Fix: validando versión WP 6.6.1
